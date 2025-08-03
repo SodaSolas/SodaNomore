@@ -104,7 +104,7 @@ body,html {
     animation: Gradient 20s ease infinite;
     font-family: 'Comfortaa', cursive;
 }
-#Books {
+#books {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
@@ -112,7 +112,7 @@ body,html {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
-#Lists {
+#lists {
     margin:4vh 0px !important;
     padding:2vh 0px !important;
 }
