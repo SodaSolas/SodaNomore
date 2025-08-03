@@ -63,7 +63,7 @@ body {
     margin:0px 6%;
     font-size:19px;
     color:#fff;
-    text-decoration:underline;
+    text-decoration:none;
 }
 #middle {
     width:100vw;
@@ -83,7 +83,7 @@ body {
     font-size:70px;
     text-decoration:underline;
 }
-#about {
+#somethings {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -101,7 +101,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#work {
+#lists {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -119,7 +119,7 @@ body {
     transition:0.4s ease-in-out;
     border-radius:0px 0px 100px 100px;
 }
-#contact {
+#works {
     width:10vw;
     height:10vw;
     text-align:center;
@@ -136,15 +136,15 @@ body {
     transition:0.4s ease-in-out;
     border-radius:100px 100px 0px 0px;
 }
-#about:hover {
+#somethings:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
-#work:hover {
+#lists:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
-#contact:hover {
+#works:hover {
     background:rgba(255,50,50,0.9);
     cursor:pointer;
 }
@@ -217,11 +217,12 @@ body {
     color:#fff;
     background:transparent;
     border:3px solid #fff;
-    padding:8px 40px;
-    border-radius:80px;
+    padding:4px 20px;
+    border-radius:40px;
     font-weight:bold;
     margin:2vh 10px;
     transition:0.4s ease-in-out;
+    text-decoration:none;
 }
 .btn_one:hover {
     cursor:pointer;
@@ -321,13 +322,13 @@ body {
 }
 
 @media (max-width: 800px){ 
-    #about {
+    #somethings {
         display:none;
     }
-    #contact {
+    #works {
         display:none;
     }
-    #work {
+    #lists {
         display:none;
     }
     #footer {

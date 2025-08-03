@@ -24,28 +24,26 @@
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
         <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
     </div>
-    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">somethings</a>
-    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
-    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">lists</a>
+    <a id="somethings" onclick="showsomethings()" class="animated fadeIn" style="animation-delay:2.2s;">somethings</a>
+    <a id="lists" onclick="showlists()" class="animated fadeIn" style="animation-delay:2.2s;">list</a>
+    <a id="works" onclick="showworks()" class="animated fadeIn" style="animation-delay:2.2s;">works</a>
     <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
         <h1>Sodanomore.</h1>
         <h2>冷たい死体</h2>
         <div id="menu">
-            <a onclick="showabout()">somethings</a>
-            <a onclick="showwork()">work</a>
-            <a onclick="showcontact()">lists</a>
+            <a onclick="showsomethings()">somethings</a>
+            <a onclick="showlists()">lists</a>
+            <a onclick="showworks()">works</a>
         </div>
         <table>
                 <tr>
-                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social"><i class="fab fa-bilibili"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social"><i class="fab fa-twitter"></i></a></td>
                     <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social"><i class="fab fa-youtube"></i></a></td>
-                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social"><i class="fab fa-dribbble"></i></a></td>
                 </tr>
         </table>
     </div>
-    <div id="work_container" class="container">
-        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+    <div id="lists_container" class="container">
+        <div onclick="closelists()"><i class="fas fa-angle-right"></i></div>
         <h1>lists.</h1>
         <section>
             <h2>一个存放心愿的地方</h2>
@@ -58,21 +56,33 @@
                 <div><i class="fas fa-circle"></i>&nbsp;CSS3</div>
                 <div><i class="fas fa-circle"></i>&nbsp;Javascript</div>
             </div>
-            <button class="btn_one">button 1</button>
+            <a href="https://weibo.com/" class="btn_one">test</a>
             <button class="btn_two">button 2</button>
         </section>
     </div>
-    <div id="about_container" class="container">
-            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+    <div id="somethings_container" class="container">
+            <div onclick="closesomethings()"><i class="fas fa-angle-left"></i></div>
             <h1>somethings.</h1>
             <section>
                 <h2>July</h2>
                 <p>
-                   roadside pinic.
+                    Read:
+                    Roadside pinic
+                </p>    
+                <p>
+                    Music:
+                    Elf-ado
                 </p>
                 <p>
-                    elf?
+                    Movies:
+                    nothings.
                 </p>
+
+                </p>
+                <p>
+                   <a href="./read/read.html" class="btn_one">More</a>
+                </p>
+
             </section>
             <section>
                 <h2>Aug</h2>
@@ -81,8 +91,8 @@
                 </p>
             </section>
         </div>
-          <div id="contact_container" class="container">
-            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+          <div id="works_container" class="container">
+            <div onclick="closeworks()"><i class="fas fa-angle-down"></i></div>
             <h1>contact.</h1>
             <section>
                 <h2>contact me</h2>
@@ -97,7 +107,7 @@
             </section>
         </div>
         <div id="footer">
-            Sodanomore <br> <a href="https://imfunniee.github.io">imfunniee</a>
+             <br> <a href="https://imfunniee.github.io">imfunniee</a>
         </div>
     <script src="index.js" type="text/javascript"></script>
     <script src="particles.js"></script>
